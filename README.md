@@ -14,7 +14,7 @@ This repository aims to share knowledge about **Functional Programming** in **Ja
 
 3. [Data Immutability in Java](articles/03-data-immutability-in-java)
 
-[//]: # (3. [Functions as First-class citizens in Java]&#40;articles/03-java-functions-as-first-class-citizens.md&#41;)
+4. [Functions as First-class citizens in Java](articles/04-java-functions-as-first-class-citizens)
 
 [//]: # (4. [Lambda functions in Java]&#40;articles/04-java-lambda-functions.md&#41;)
 

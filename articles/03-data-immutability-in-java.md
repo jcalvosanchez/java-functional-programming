@@ -8,7 +8,7 @@
 - Caching data
 - The price to pay is probably an increase in memory usage and some operations can be less efficient.
 
-This concept is not straight forward to implement in Java, since there is no concept of a `constant` like in other languages, but rather the concept of `final`.
+This concept is not straight forward to [implement in Java](https://www.linkedin.com/pulse/functional-programming-java-jer%C3%B3nimo-calvo-s%C3%A1nchez-ybvdf), since there is no concept of a `constant` like in other languages, but rather the concept of `final`.
 
 Hence, developers must build immutability in their own code since there is no built-in mechanism provided in Java.
 
