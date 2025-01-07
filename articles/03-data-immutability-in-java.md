@@ -133,7 +133,7 @@ Methods and Classes can also be annotated as `final`, but this is not related to
 - A `final` method cannot be overwritten, hence allowing the compiler to apply optimizations since it is not going to be overwritten in execution time.
 - A `final` class cannot be extended and making this type safety.
 
-## How to make your object immutable
+## How to make your object immutable in Java
 
 Since there is no built-in mechanism in Java to make an object immutable, we need to design for it ourselves. Best practices are:
 
@@ -148,3 +148,8 @@ Since there is no built-in mechanism in Java to make an object immutable, we nee
 - Review your public methods to enforce that no changes are done to your internal variables. 
 - (Java 14+) Use `record` when possible, specially as DTO (Data Transfer Objects) or any class that primarily carries data without complex behavior.
 - TEST for immutability
+
+## Code examples
+
+- [DataImmutabilityExamples](../src/main/java/es/htic/kata/java_functional_programming/DataImmutabilityExamples.java) class
+- [DataImmutabilityTest](../src/test/java/es/htic/kata/java_functional_programming/DataImmutabilityTest.java) class

@@ -12,12 +12,12 @@ import java.util.Objects;
  * - Do not handle references to mutable objects (make a deep copy when creating your data, return a copy of your data)
  * - Ensure Deep Immutability
  */
-public final class DataImmutabilityClass {
+public final class DataImmutabilityExamples {
     private final List<String> items;
     private final List<String> immutableItems;
     private final Address address;
 
-    public DataImmutabilityClass(List<String> items, Address address) {
+    public DataImmutabilityExamples(List<String> items, Address address) {
         this.items = new ArrayList<>(items); // Deep copy the list
         this.immutableItems = List.copyOf(items); // Java 10+ or use Collections.unmodifiableList
         this.address = new Address(address.getStreet(), address.getCity()); // Defensive copy
