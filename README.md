@@ -13,7 +13,6 @@ This repository aims to share knowledge about **Functional Programming** in **Ja
 3. [Data Immutability in Java](articles/03-data-immutability-in-java)
 4. [Functions as First-class citizens in Java](articles/04-java-functions-as-first-class-citizens)
 5. [Lambda functions in Java](articles/05-java-lambda-expressions)
-
-[//]: # (5. [Functional Interfaces in Java]&#40;articles/05-java-functional-interfaces&#41;)
+6. [Functional Interfaces in Java](articles/06-java-functional-interfaces)
 
 [//]: # (6. [Stream API in Java]&#40;articles/06-java-stream-api&#41;)
