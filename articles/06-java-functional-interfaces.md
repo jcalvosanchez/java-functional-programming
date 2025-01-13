@@ -33,7 +33,7 @@ Greeting greet = name -> System.out.println("Hello, " + name);
 
 ## Java native Functional Interfaces
 
-Java provides several built-in functional interfaces in the `java.util.function` package for common use cases:
+Java provides several built-in functional interfaces in the `java.util.function` package for common use cases in Functional Programming to best categorize and reuse functions when decomposing problems:
 
 | Interface              | Abstract Method       | Usage                                                              |
 |------------------------|-----------------------|--------------------------------------------------------------------|
@@ -150,6 +150,47 @@ public void testComposeFullNames() {
     assertEquals("Doe, John", fullNameUsingBinaryOperator.apply("John", "Doe"));
     assertEquals("Doe, John", fullNameUsingBiFunction.apply("John", "Doe"));
 }
+```
+
+## More native Functional Interfaces
+
+There are other well known Interfaces in Java that has benefit from these changes, like
+- `Runnable` since Java 1, represents a task to be executed on a separate thread.
+
+```java
+Runnable task = () -> System.out.println("Task is running...");
+new Thread(task).start();
+```
+
+- `Comparator` since Java 2, for comparing and sorting objects. 
+
+```java
+Comparator<String> byLength = (s1, s2) -> Integer.compare(s1.length(), s2.length());
+List<String> words = List.of("apple", "banana", "cherry");
+words.sort(byLength);
+
+```
+
+- `Callable` since Java 5, is similar to `Runnable` but returns a value and can throw exceptions
+
+```java
+Callable<String> task = () -> "Task completed!";
+ExecutorService executor = Executors.newSingleThreadExecutor();
+
+try {
+Future<String> result = executor.submit(task);
+    System.out.println(result.get());
+        } catch (Exception e) {
+        e.printStackTrace();
+} finally {
+        executor.shutdown();
+}
+```
+
+- `ActionListener` since Java 1, to handle events
+
+```java
+button.addActionListener(e -> System.out.println("Button clicked!"));
 ```
 
 ## Code examples
