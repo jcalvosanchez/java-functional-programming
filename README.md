@@ -14,5 +14,6 @@ This repository aims to share knowledge about **Functional Programming** in **Ja
 4. [Functions as First-class citizens in Java](articles/04-java-functions-as-first-class-citizens)
 5. [Lambda functions in Java](articles/05-java-lambda-expressions)
 6. [Functional Interfaces in Java](articles/06-java-functional-interfaces)
+7. [Optional in Java](articles/07-java-optional)
 
 [//]: # (6. [Stream API in Java]&#40;articles/06-java-stream-api&#41;)

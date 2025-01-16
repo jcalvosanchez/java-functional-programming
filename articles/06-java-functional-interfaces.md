@@ -168,7 +168,6 @@ new Thread(task).start();
 Comparator<String> byLength = (s1, s2) -> Integer.compare(s1.length(), s2.length());
 List<String> words = List.of("apple", "banana", "cherry");
 words.sort(byLength);
-
 ```
 
 - `Callable` since Java 5, is similar to `Runnable` but returns a value and can throw exceptions
@@ -178,12 +177,12 @@ Callable<String> task = () -> "Task completed!";
 ExecutorService executor = Executors.newSingleThreadExecutor();
 
 try {
-Future<String> result = executor.submit(task);
+    Future<String> result = executor.submit(task);
     System.out.println(result.get());
-        } catch (Exception e) {
-        e.printStackTrace();
+} catch (Exception e) {
+    e.printStackTrace();
 } finally {
-        executor.shutdown();
+    executor.shutdown();
 }
 ```
 
