@@ -1,6 +1,6 @@
 # Functional Programming in Java
 
-![Static Badge](https://img.shields.io/badge/date-2024-orange)
+![Static Badge](https://img.shields.io/badge/date-2025-orange)
 ![Static Badge](https://img.shields.io/badge/java-14-blue)
 ![Static Badge](https://img.shields.io/badge/junit-5-blue)
 
@@ -15,5 +15,6 @@ This repository aims to share knowledge about **Functional Programming** in **Ja
 5. [Lambda functions in Java](articles/05-java-lambda-expressions)
 6. [Functional Interfaces in Java](articles/06-java-functional-interfaces)
 7. [Optional in Java](articles/07-java-optional)
+8. [Stream API in Java](articles/08-java-stream-api.md)
 
 [//]: # (6. [Stream API in Java]&#40;articles/06-java-stream-api&#41;)
