@@ -1,5 +1,12 @@
 # Stream API
 
+![Static Badge](https://img.shields.io/badge/date-2025-orange)
+
+![Static Badge](https://img.shields.io/badge/software--architecture-purple)
+![Static Badge](https://img.shields.io/badge/functional--programming-purple)
+
+![Cover Image](cover_img/08-java-stream-api.png)
+
 ## What is the Java Stream API?
 
 The **Java Stream API**, introduced in **Java 8**, is a functional-style approach to process data collections efficiently.

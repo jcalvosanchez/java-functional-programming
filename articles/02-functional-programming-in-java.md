@@ -1,5 +1,12 @@
 # Functional Programming in Java
 
+![Static Badge](https://img.shields.io/badge/date-2025-orange)
+
+![Static Badge](https://img.shields.io/badge/software--architecture-purple)
+![Static Badge](https://img.shields.io/badge/functional--programming-purple)
+
+![Cover Image](cover_img/02-functional-programming-in-java.png)
+
 **[Functional Programming](01-introduction-to-functional-programming.md)** is a programming paradigm that decomposes a problem into a set of Functions, focusing on immutability, pure functions, and declarative logic. This is becoming a popular approach due to the advantages of **turning complex problems into much simpler and reusable parts**
 
 - **Testing becomes easier**

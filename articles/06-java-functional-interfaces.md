@@ -1,5 +1,12 @@
 # Functional Interfaces in Java
 
+![Static Badge](https://img.shields.io/badge/date-2025-orange)
+
+![Static Badge](https://img.shields.io/badge/software--architecture-purple)
+![Static Badge](https://img.shields.io/badge/functional--programming-purple)
+
+![Cover Image](cover_img/06-java-functional-interfaces.png)
+
 [Functional Programming](01-introduction-to-functional-programming.md) is a programming paradigm that decomposes a problem into a set of **Functions**. 
 
 Java 8 introduced some major features to support [Functional Programming in Java](02-functional-programming-in-java.md) allowing [Data Immutability](03-data-immutability-in-java.md) and enabling [Functions as First-class citizens](04-java-functions-as-first-class-citizens.md), introducing a new syntax, [lambda expressions](05-java-lambda-expressions.md), to make Functions easier to write and read.

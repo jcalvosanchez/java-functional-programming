@@ -1,5 +1,12 @@
 # Functions as First-class citizens in Java
 
+![Static Badge](https://img.shields.io/badge/date-2025-orange)
+
+![Static Badge](https://img.shields.io/badge/software--architecture-purple)
+![Static Badge](https://img.shields.io/badge/functional--programming-purple)
+
+![Cover Image](cover_img/04-java-functions-as-first-class-citizens.png)
+
 [Functional Programming](01-introduction-to-functional-programming.md) emphasizes the use of **immutable data** and **pure functions** to achieve more predictable, maintainable, and thread-safe code.
 
 While [Java is not inherently a functional language](02-functional-programming-in-java.md), Java 8 (2014) introduced some major features to support these concepts. We have already seen how [Data Immutability can be achieved in Java](03-data-immutability-in-java.md).

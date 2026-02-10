@@ -1,5 +1,12 @@
 # Lambda Expressions in Java
 
+![Static Badge](https://img.shields.io/badge/date-2025-orange)
+
+![Static Badge](https://img.shields.io/badge/software--architecture-purple)
+![Static Badge](https://img.shields.io/badge/functional--programming-purple)
+
+![Cover Image](cover_img/05-java-lambda-expressions.png)
+
 In [Functional Programming](01-introduction-to-functional-programming.md), one of the consequences of Functions becoming [First Class Citizens](04-java-functions-as-first-class-citizens.md), is that they are used more frequently and their life cycle is shorter.
 
 This is why when using [Functional Programming in Java](02-functional-programming-in-java.md), **anonymous classes** are much more frequently used as a mechanism to declare and pass around short-live **anonymous functions**.

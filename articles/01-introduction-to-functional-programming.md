@@ -2,6 +2,11 @@
 
 ![Static Badge](https://img.shields.io/badge/date-2024-orange)
 
+![Static Badge](https://img.shields.io/badge/software--architecture-purple)
+![Static Badge](https://img.shields.io/badge/functional--programming-purple)
+
+![Cover Image](cover_img/01-introduction-to-functional-programming.png)
+
 ## What is Functional Programming
 
 In Computer Science, **[Functional Programming](https://en.wikipedia.org/wiki/Functional_programming)** is a programming paradigm that decomposes a problem into a set of Functions. A **[Function](https://en.wikipedia.org/wiki/Function_(computer_programming))** (also known as procedure, method or routine) is a unit of software logic that has a well-defined interface and behaviour and can be invoked multiple times.

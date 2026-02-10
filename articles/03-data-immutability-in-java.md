@@ -1,5 +1,11 @@
-
 # Data immutability in Java
+
+![Static Badge](https://img.shields.io/badge/date-2025-orange)
+
+![Static Badge](https://img.shields.io/badge/software--architecture-purple)
+![Static Badge](https://img.shields.io/badge/functional--programming-purple)
+
+![Cover Image](cover_img/03-data-immutability-in-java.png)
 
 **Data immutability** is one of the core principles of [Functional Programming](01-introduction-to-functional-programming.md): means that once data is created, it should not be modified nor updated, and instead new data should be created.
 

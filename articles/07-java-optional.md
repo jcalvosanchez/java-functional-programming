@@ -1,5 +1,12 @@
 # Mastering `Optional` in Java: Eliminate Nulls Enhancing Code Readability
 
+![Static Badge](https://img.shields.io/badge/date-2025-orange)
+
+![Static Badge](https://img.shields.io/badge/software--architecture-purple)
+![Static Badge](https://img.shields.io/badge/functional--programming-purple)
+
+![Cover Image](cover_img/07-java-optional.png)
+
 ## Nulls in Java
 
 `null` in Java is  a special value that represents the absence of a reference to any object in memory at runtime.
