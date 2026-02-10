@@ -41,7 +41,7 @@ To illustrate this problem with some real code:
 ```java
 public record Address(String street, String city) {}
 
-Function<Address, String> composeAddress = (address) -> address.street().concat(address.city());
+Function<Address, String> composeAddress = (address) -> address.street().concat(" ").concat(address.city());
 ```
 
 Will have the following behaviour at runtime
@@ -57,7 +57,7 @@ public void testNullsInJava() {
     assertThrows(NullPointerException.class, () -> composeAddress.apply(new Address("street", null)));
     assertThrows(NullPointerException.class, () -> composeAddress.apply(new Address(null, "city")));
     assertDoesNotThrow(() -> composeAddress.apply(new Address("street", "city")));
-    assertEquals("streetcity", composeAddress.apply(new Address("street", "city")));
+    assertEquals("street city", composeAddress.apply(new Address("street", "city")));
 }
 ```
 

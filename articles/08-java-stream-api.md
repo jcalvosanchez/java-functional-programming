@@ -19,7 +19,7 @@ The result is a cleaner, more readable, more efficient, and more maintainable co
 
 ### More Readable and Concise Code
 
-The **declarative** and **functional programming** style, allows more concise, easier to read, more modular and composable. This results in a less boilerplate, less error prone and more maintainable code.
+The **declarative** and **functional programming** style, allows more concise, easier to read, more modular and composable. This results in a less boilerplate, and more maintainable code.
 
 ### More Efficient Code
 
@@ -372,11 +372,11 @@ The Java Stream API supports **parallel processing** to speed up computations by
 
 ### When to use it 
 
-The benefits overcome the complexity added and the cost in time and resources when:
+The benefits overcome the complexity added and the cost in time and resources when we have:
 
-- ✅ Large datasets (thousands/millions of elements)
-- ✅ CPU-intensive tasks
-- ✅ Independent operations
+- [ ] Large datasets (thousands/millions of elements)
+- [ ] CPU-intensive tasks
+- [ ] Independent operations
 
 ### How to Create a parallel Stream
 

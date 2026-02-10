@@ -21,7 +21,7 @@ Since its first release in 1996, Java was designed to be a **general-purpose lan
 
 This changed in 2014 with the release of **Java 8**, which introduced major features enabling Functional Programming. Since then, more enhancements and new features have been added to better support this paradigm.
 
-However, even after all the support and enhancements introduced, **Java does not enforce Functional Programming core principles**, such as immutability or the use of pure functions, unlike purely functional languages such as Haskell or JVM-based functional languages like Scala, Kotlin, and Clojure.
+However, even after all the support and enhancements introduced, **Java does not enforce Functional Programming core principles**, such as [data immutability](03-data-immutability-in-java.md) or the use of pure functions, unlike purely functional languages such as [Haskell](https://en.wikipedia.org/wiki/Haskell) or JVM-based functional languages like [Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)), [Kotlin](https://en.wikipedia.org/wiki/Kotlin), and [Clojure](https://en.wikipedia.org/wiki/Clojure).
 
 Hence, if you want to use Functional Programming in Java, you need to heavily rely on **best practices**, **manual code inspection** and **SAC tools** (Static Code Analysis) such as SonarQube.
 
@@ -39,10 +39,11 @@ Main reasons could be
 
 **Java 8** (2014) was the game-changer for Functional Programming in Java, making it possible with the introduction of some major features. Here we can find a list with the main features introduced with this release, each of them will be further explained in follow-up articles:
 
-- Functions become **first-class citizens**: Functions can now be passed as arguments or returned as values.
-- **Lambda Expressions**: A concise mechanism for function definition.
-- **Functional Interfaces**: Interfaces with a Single Abstract Method (SAM), enabling the use of lambdas.
-- **Streams API**: Declarative pipelines for data processing.
+- **[Functions become first-class citizens](04-java-functions-as-first-class-citizens.md)**: Functions can now be passed as arguments or returned as values.
+- **[Lambda Expressions](05-java-lambda-expressions.md)**: A concise mechanism for function definition.
+- **[Functional Interfaces](06-java-functional-interfaces.md)**: Interfaces with a Single Abstract Method (SAM), enabling the use of lambdas.
+- **[Optional](07-java-optional.md)**
+- **[Streams API](08-java-stream-api.md)**: Declarative pipelines for data processing.
 - **CompletableFuture**: Functional-style asynchronous programming.
 
 More enhancements have been added in later releases

@@ -21,7 +21,7 @@ public class OptionalTest {
 
     @Test
     public void testNullsInJava() {
-        Function<Address, String> composeAddress = (address) -> address.street().concat(address.city());
+        Function<Address, String> composeAddress = (address) -> address.street().concat(" ").concat(address.city());
         Address address = null;
         assertThrows(NullPointerException.class, () -> address.street());
         assertThrows(NullPointerException.class, () -> composeAddress.apply(null));
@@ -29,7 +29,7 @@ public class OptionalTest {
         assertThrows(NullPointerException.class, () -> composeAddress.apply(new Address("street", null)));
         assertThrows(NullPointerException.class, () -> composeAddress.apply(new Address(null, "city")));
         assertDoesNotThrow(() -> composeAddress.apply(new Address("street", "city")));
-        assertEquals("streetcity", composeAddress.apply(new Address("street", "city")));
+        assertEquals("street city", composeAddress.apply(new Address("street", "city")));
     }
 
     @Test

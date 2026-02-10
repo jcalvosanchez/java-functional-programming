@@ -7,13 +7,11 @@
 
 ![Cover Image](cover_img/04-java-functions-as-first-class-citizens.png)
 
-[Functional Programming](01-introduction-to-functional-programming.md) emphasizes the use of **immutable data** and **pure functions** to achieve more predictable, maintainable, and thread-safe code.
+[Functional Programming](01-introduction-to-functional-programming.md) emphasizes the use of **[immutable data](03-data-immutability-in-java.md)** and **pure functions** to achieve more predictable, maintainable, and thread-safe code.
 
-While [Java is not inherently a functional language](02-functional-programming-in-java.md), Java 8 (2014) introduced some major features to support these concepts. We have already seen how [Data Immutability can be achieved in Java](03-data-immutability-in-java.md).
+While [Java is not inherently a functional language](02-functional-programming-in-java.md), Java 8 (2014) introduced some major features to support these concepts. Let's review in this article how Functions became First-class citizens.
 
-Let's review in this article how Functions became First-class citizens.
-
-## Functions as Variables
+## Functions as Variables   
 
 From Java 8, Functions can be assigned to variables and used like any other variable.
 
@@ -35,8 +33,6 @@ public class Main {
 
 From Java 8, Functions can be passed as arguments, making [high-order programming](https://en.wikipedia.org/wiki/Higher-order_programming) possible which is a key concept in Functional Programming.
 
-Here's an example using the `Function` interface to pass a function as an argument:
-
 ```java
 import java.util.function.Function;
 
@@ -56,8 +52,6 @@ public class Main {
 ## Returning Functions from Functions
 
 Another key concept became possible fron Java 8, Functions can also return Functions.
-
-Here's an example of a function that returns another function:
 
 ```java
 import java.util.function.Function;

@@ -17,7 +17,7 @@ Also, **Functional Interfaces** were introduced to provide meaningful semantics 
 
 A **Functional Interface** in Java is an Interface with a Single Abstract Method (SAM). Java ensures the integrity of these interfaces at the compiler level with a single-method rule.
 
-They are designed to work seamlessly with **lambda expressions and method references**, providing Provide **semantic clarity** by explicitly defining the intent of a function.
+They are designed to work seamlessly with **lambda expressions and method references**, providing **semantic clarity** by explicitly defining the intent of a function.
 
 ## Custom Functional Interfaces
 

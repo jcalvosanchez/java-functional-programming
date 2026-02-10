@@ -56,7 +56,7 @@ The basic syntax is
 (parameter1, parameter2) -> { statements; }
 ```
 
-In the following example, the lambda function `n -> System.out.println(n)` is used to print each element of the list.
+In the following example, the lambda expression `n -> System.out.println(n)` is used to print each element of the list.
 
 ```java
 import java.util.Arrays;

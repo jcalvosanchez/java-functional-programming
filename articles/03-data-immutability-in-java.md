@@ -9,14 +9,15 @@
 
 **Data immutability** is one of the core principles of [Functional Programming](01-introduction-to-functional-programming.md): means that once data is created, it should not be modified nor updated, and instead new data should be created.
 
+This brings a number of benefits:
+
 - Easier to test, more predictable and maintainable code
 - Thread-safe operations
 - Caching data
-- The price to pay is probably an increase in memory usage and some operations can be less efficient.
 
-This concept is not straight forward to [implement in Java](02-functional-programming-in-java.md), since there is no concept of a `constant` like in other languages, but rather the concept of `final`.
+The price to pay is probably an increase in memory usage and some operations can be less efficient.
 
-Hence, developers must build immutability in their own code since there is no built-in mechanism provided in Java.
+This concept is not straight forward to [implement in Java](02-functional-programming-in-java.md), since there is no concept of a `constant` like in other languages, but rather the concept of `final`. Hence, developers must build immutability in their own code since there is no built-in mechanism provided in Java.
 
 ## `final` is NOT immutable in Java
 
@@ -24,7 +25,7 @@ Java provides a `final` keyword since its first release, that can be applied to 
 
 Declaring a variable as `final` means the reference cannot point to a different object after initialization. However, the object itself can still be mutable unless explicitly designed to be immutable.
 
-This has been probably the most common source of bugs for developers when getting started in Functional Programming in Java.
+This is one of the most common sources of bugs for developers when getting started in Functional Programming in Java.
 
 ### `final` primitive variable
 
@@ -70,7 +71,7 @@ public void testFinalCollectionIsMutable() {
 }
 ```
 
-This was not changed in Java 8 when introducing Functional Programming, making this **the most common bug root cause when using Functional Programming in Java**.
+This was not changed in Java 8 when introducing Functional Programming, probably making this **the most common root cause of bugs when using Functional Programming in Java**.
 
 ```java
 @Test
