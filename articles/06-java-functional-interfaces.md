@@ -1,8 +1,8 @@
 # Functional Interfaces in Java
 
-[Functional Programming](https://www.linkedin.com/pulse/introduction-functional-programming-jer%25C3%25B3nimo-calvo-s%25C3%25A1nchez-p2s8f) is a programming paradigm that decomposes a problem into a set of **Functions**. 
+[Functional Programming](01-introduction-to-functional-programming.md) is a programming paradigm that decomposes a problem into a set of **Functions**. 
 
-Java 8 introduced some major features to support [Functional Programming in Java](https://www.linkedin.com/pulse/functional-programming-java-jer%25C3%25B3nimo-calvo-s%25C3%25A1nchez-ybvdf) allowing [Data Immutability](https://www.linkedin.com/pulse/functional-programming-java-jer%25C3%25B3nimo-calvo-s%25C3%25A1nchez-ybvdf) and enabling [Functions as First-class citizens](https://www.linkedin.com/pulse/functions-first-class-citizens-java-jer%25C3%25B3nimo-calvo-s%25C3%25A1nchez-zsskf), introducing a new syntax, [lambda expressions](https://www.linkedin.com/pulse/lambda-expressions-java-jer%25C3%25B3nimo-calvo-s%25C3%25A1nchez-zxyif), to make Functions easier to write and read.
+Java 8 introduced some major features to support [Functional Programming in Java](02-functional-programming-in-java.md) allowing [Data Immutability](03-data-immutability-in-java.md) and enabling [Functions as First-class citizens](04-java-functions-as-first-class-citizens.md), introducing a new syntax, [lambda expressions](05-java-lambda-expressions.md), to make Functions easier to write and read.
 
 Also, **Functional Interfaces** were introduced to provide meaningful semantics to functions.
 

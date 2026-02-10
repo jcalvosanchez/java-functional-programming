@@ -71,16 +71,16 @@ public String getUserEmail(User user) {
 
 ### The Functional Programming Approach
 
-[Functional Programming](https://www.linkedin.com/pulse/introduction-functional-programming-jer%25C3%25B3nimo-calvo-s%25C3%25A1nchez-p2s8f) emphasizes **explicitness** and **immutability**. Instead of relying on ambiguous `null` values, functional paradigms favor constructs that clearly express intent.
+[Functional Programming](01-introduction-to-functional-programming.md) emphasizes **explicitness** and **immutability**. Instead of relying on ambiguous `null` values, functional paradigms favor constructs that clearly express intent.
 
-As functional programming gained traction, languages like **Scala** introduced the concept of `Option` or `Maybe` types to explicitly model the presence or absence of a value. Inspired by these, [Java](https://www.linkedin.com/pulse/functional-programming-java-jer%25C3%25B3nimo-calvo-s%25C3%25A1nchez-ybvdf) introduced `Optional` in **Java 8** to provide a more expressive, safer, and less error-prone way to handle potentially absent values.
+As functional programming gained traction, languages like **Scala** introduced the concept of `Option` or `Maybe` types to explicitly model the presence or absence of a value. Inspired by these, [Java](02-functional-programming-in-java.md) introduced `Optional` in **Java 8** to provide a more expressive, safer, and less error-prone way to handle potentially absent values.
 
 ## `Optional` in Java
 
 `Optional` is a container object used to represent the presence or absence of a value. Rather than returning `null` for missing values, you can return an `Optional` instance to indicate explicitly whether a value is present.
 
 - **Explicitly represents absence of a value:** Avoids surprises from `null` values.
-- **Fluent API:** facilitates [functional programming in Java](https://www.linkedin.com/pulse/functional-programming-java-jer%25C3%25B3nimo-calvo-s%25C3%25A1nchez-ybvdf).
+- **Fluent API:** facilitates [functional programming in Java](02-functional-programming-in-java.md).
 - **Improved readability:** Clearly communicates when a value might be absent.
 
 ### How to Create an `Optional`
@@ -248,9 +248,9 @@ public void testFilterConditions() {
 
 ## Further Reading
 
-1. [Functional Programming in Java](https://www.linkedin.com/pulse/functional-programming-java-jer%C3%B3nimo-calvo-s%C3%A1nchez-ybvdf)
-2. [Lambda Expressions in Java](https://www.linkedin.com/pulse/lambda-expressions-java-jer%C3%B3nimo-calvo-s%C3%A1nchez-zxyif)
-3. [Functional Interfaces in Java](https://www.linkedin.com/pulse/functional-interfaces-java-jer%C3%B3nimo-calvo-s%C3%A1nchez)
+1. [Functional Programming in Java](02-functional-programming-in-java.md)
+2. [Lambda Expressions in Java](05-java-lambda-expressions.md)
+3. [Functional Interfaces in Java](06-java-functional-interfaces.md)
 
 ## Code examples
 

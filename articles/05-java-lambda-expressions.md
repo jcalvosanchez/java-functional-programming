@@ -1,8 +1,8 @@
 # Lambda Expressions in Java
 
-In [Functional Programming](https://www.linkedin.com/pulse/introduction-functional-programming-jer%2525C3%2525B3nimo-calvo-s%2525C3%2525A1nchez-p2s8f), one of the consequences of Functions becoming [First Class Citizens](https://www.linkedin.com/pulse/functions-first-class-citizens-java-jer%2525C3%2525B3nimo-calvo-s%2525C3%2525A1nchez-zsskf), is that they are used more frequently and their life cycle is shorter.
+In [Functional Programming](01-introduction-to-functional-programming.md), one of the consequences of Functions becoming [First Class Citizens](04-java-functions-as-first-class-citizens.md), is that they are used more frequently and their life cycle is shorter.
 
-This is why when using [Functional Programming in Java](https://www.linkedin.com/pulse/functional-programming-java-jer%2525C3%2525B3nimo-calvo-s%2525C3%2525A1nchez-ybvdf), **anonymous classes** are much more frequently used as a mechanism to declare and pass around short-live **anonymous functions**.
+This is why when using [Functional Programming in Java](02-functional-programming-in-java.md), **anonymous classes** are much more frequently used as a mechanism to declare and pass around short-live **anonymous functions**.
 
 However, because this approach is quite verbose, **lambda expressions** and **method references** were introduced in Java8 to simplify the syntax and enhance readability.
 

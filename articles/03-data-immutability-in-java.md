@@ -1,14 +1,14 @@
 
 # Data immutability in Java
 
-**Data immutability** is one of the core principles of [Functional Programming](https://www.linkedin.com/pulse/introduction-functional-programming-jer%C3%B3nimo-calvo-s%C3%A1nchez-p2s8f): means that once data is created, it should not be modified nor updated, and instead new data should be created.
+**Data immutability** is one of the core principles of [Functional Programming](01-introduction-to-functional-programming.md): means that once data is created, it should not be modified nor updated, and instead new data should be created.
 
 - Easier to test, more predictable and maintainable code
 - Thread-safe operations
 - Caching data
 - The price to pay is probably an increase in memory usage and some operations can be less efficient.
 
-This concept is not straight forward to [implement in Java](https://www.linkedin.com/pulse/functional-programming-java-jer%C3%B3nimo-calvo-s%C3%A1nchez-ybvdf), since there is no concept of a `constant` like in other languages, but rather the concept of `final`.
+This concept is not straight forward to [implement in Java](02-functional-programming-in-java.md), since there is no concept of a `constant` like in other languages, but rather the concept of `final`.
 
 Hence, developers must build immutability in their own code since there is no built-in mechanism provided in Java.
 
